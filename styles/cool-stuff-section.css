@@ -1,0 +1,44 @@
+body
+{
+    background-color: #ffc7e8;
+    color: #a316a6;
+}
+main
+{
+  background-color: #fff0f9;
+  padding: 15px;
+  margin: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+h1
+{
+  font-size: 2rem;
+  text-align: center;
+}
+.dividends
+{
+  display: flex;
+  justify-content: center;
+  border: 10px solid pink;
+  background-color: pink;
+  gap: 10px;
+}
+.boxsections
+{
+  gap: 10px;
+}
+.bs1
+{
+  height: 50px;
+  width: 50rem;
+  background-color: #f28dbe;
+}
+.bs2
+{
+
+}
+.bs3
+{
+  
+}
