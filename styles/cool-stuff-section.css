@@ -1,7 +1,7 @@
 body
 {
-    background-color: #ffc7e8;
-    color: #a316a6;
+  background-color: #ffc7e8;
+  color: #a316a6;
 }
 main
 {
@@ -16,29 +16,71 @@ h1
   font-size: 2rem;
   text-align: center;
 }
-.dividends
+header
 {
   display: flex;
-  justify-content: center;
-  border: 10px solid pink;
-  background-color: pink;
-  gap: 10px;
+  background-color: plum;
+  height: 1.5rem;
+  flex-grow: 1;
 }
-.boxsections
+.dividends
 {
-  gap: 10px;
+  flex-direction: column;
+  background-color: pink;
+  align-items: center;
+}
+.bs1, .bs2, .bs3, .bs4
+{
+  border: solid pink;
 }
 .bs1
 {
-  height: 50px;
-  width: 50rem;
-  background-color: #f28dbe;
+  display: flex;
+  justify-content: space-evenly;
+  border-width: 10px;
+  gap: 10px;
 }
 .bs2
 {
-
+  display: flex;
+  gap: 15px;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  border-width: 15px;
 }
 .bs3
 {
-  
+  display: flex;
+  border-width: 15px;
+  gap: 15px;
+  justify-content: space-between;
+}
+.bs4
+{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 12px;
+  border-width: 12px;
+}
+.box3
+{
+  border: 2px #c17dd4 solid;
+  width: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+#sbox
+{
+  width: 20rem;
+}
+.box4
+{
+  border: 2px #db6bd6 solid;
+}
+.box1, .box2, .box3, .box4
+{
+  display: flex;
+  background-color: #f28dbe;
+  height: 50px;
+  flex-grow: 1;
 }

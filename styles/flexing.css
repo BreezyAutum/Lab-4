@@ -32,19 +32,20 @@ h1
 {
   border: 10px solid pink;
   background-color: pink;
+  gap: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
 }
-.bs1
+.box
 {
   background-color: #f28dbe;
+  height: 50px;
+  flex-grow: 0.5;
+  gap: 10px;
 }
-.bs2
-{
 
-}
-.bs3
-{
-  
-}
 footer
 {
   
